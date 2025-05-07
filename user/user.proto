@@ -1,9 +1,8 @@
 syntax = "proto3";
 import "google/protobuf/empty.proto";
+option go_package = "user/proto";
 
 package user;
-
-option go_package = "user/proto";
 
 // 在 mxshop-proto 目录下
 // 生成 Protobuf 消息代码: protoc -I user user.proto --go_out=.
